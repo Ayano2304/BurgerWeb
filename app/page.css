@@ -1,0 +1,14 @@
+header{
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    background-color: #0f004a;
+    color: white;
+    max-width: 1024px;
+    margin: auto;
+}

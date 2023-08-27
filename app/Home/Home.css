@@ -1,0 +1,41 @@
+ul li a{
+    margin-left: 15px;
+    font-size: 18px;
+    transition: 0.5ms ease-in-out;
+}
+
+ul li a:hover{
+    color: yellow;
+}
+
+p.text-1{
+    font-size: 60px;
+    line-height: 1;
+}
+
+.luar img{
+    height: 30em;
+    width: 25em;
+}
+
+.icon_name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    justify-content: start;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .luar img{
+    height: 10em;
+    width: 10em;
+  }
+
+  p.text-1{
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+}
+
+}
